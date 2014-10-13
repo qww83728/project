@@ -1,0 +1,15 @@
+留白 (Padding)
+有三種方式可以設定留白，分別為長度、百分比、以及 'auto'。我們來看以下的例子：
+padding-top (上) 
+padding-right (右) 
+padding-bottom (下) 
+padding-left (左)
+
+#container { 
+  padding-top:15px; 
+  padding-left:10px; 
+  padding-right:30px; 
+  padding-bottom:40px; 
+  border: 1px solid 000000; 
+}
+padding: [上面留白值] [右邊留白值] [下面留白值] [左邊留白值]
