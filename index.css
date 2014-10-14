@@ -30,7 +30,7 @@ body{
     height:400px;
 }
 
-.subbotton{
+.subbotton{ /* 左邊子分類的校對  最後一個會有對不齊的狀況*/
     margin:20px 0 20px 0 ;
     font-size:15px;
 }
@@ -73,4 +73,9 @@ body{
 .down{
     background-color:white;
     text-align:center;
+}
+
+.float-button{
+    display: none ;
+    position: absolute ;
 }
