@@ -5,10 +5,15 @@ body{
     background-color: skyblue  ;
 }
 
-.logein{
+.logein{ /* 右上角會員專區 */
     width:40%;
+    height:20px;
     background-color:gold;
     float:right;
+}
+
+.log{ /* 右上角功能區間格調整 */
+    padding:0 20px 0 0 ;
 }
 
 .title{
@@ -32,6 +37,16 @@ body{
     text-align:center;
     height:40px;
     line-height:40px;
+}
+
+.kind ul li{
+    display: inline-block;/*li會換行  此命令不換行*/
+    padding: 0 100px 0 0;/* 註解測試   留空 */
+}
+
+.button{
+    font-size:20px;
+    letter-spacing:10px;/*文字間間格*/
 }
 
 .right{
